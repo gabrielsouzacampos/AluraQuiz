@@ -1,78 +1,102 @@
-# Example app with styled-components
+<h1 align="center">
+  <img alt="AluraQuiz" src=".github/logo.png" height="100px">
+</h1>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/GabrielSouzaCampos/AluraQuiz?color=15c3d6">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GabrielSouzaCampos/AluraQuiz?color=15c3d6">
+  <img alt="Project license" src="https://img.shields.io/github/license/GabrielSouzaCampos/AluraQuiz?color=15c3d6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielSouzaCampos/AluraQuiz?color=15c3d6">
+  <a href="https://github.com/GabrielSouzaCampos/AluraQuiz/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GabrielSouzaCampos/AluraQuiz?color=15c3d6">
+  <img alt="Made by Alura" src="https://img.shields.io/badge/made%20by-Rocketseat-15c3d6?style=flat">
+  </a>
+  <!-- <img src="https://img.shields.io/badge/AluraQuiz-NLW 2.0-8257E5?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="> -->
+ <br>
+  <a href="https://www.linkedin.com/in/gabrielsouzacampos/">
+       <img alt="LinkedIn link" src="https://img.shields.io/badge/-Gabriel Souza Campos-0077B5?style=flat&amp;logo=Linkedin&amp;logoColor=white" height="25px">
+  </a> 
+  <!-- <a href="https://insomnia.rest/run/?label=AluraQuiz&amp;uri=https%3A%2F%2Fraw.githubusercontent.com%2GabrielSouzaCampos%2FAluraQuiz%2Fmaster%2F.github%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a> -->
+</p>
+<strong>
+<br>
+<p align="center">
+    <a href="README.md">English</a>
+    ·
+    <a href="README-pt.md">Portuguese</a>
+</p>
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
+<p align="center">
+  <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tools">Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#package-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+</strong>
+<br>
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
+<p align="center">
+    <img alt="Screens" src=".github/AluraQuiz-screens.png" height="350px" />
+</p>
 
-## Deploy your own
+## :bookmark: About
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+**AluraQuiz** is a quiz platform aimed at people's entertainment. This project was implemented during the **Imersão React Next.js** of **[Alura](https://alura.com.br/)**.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+<br>
 
-## How to use
+## :computer: Technologies
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+-  **[React](https://reactjs.org/)**
+-  **[Next.js](https://nextjs.org/)**
+-  **[Styled Components](https://styled-components.com/)**
+-  **[Framer Motion](https://www.framer.com/motion/)**
+-  **[ESLint](https://eslint.org/)**
 
-```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
+<br>
+
+## :wrench: Tools
+
+- **[VisualStudio Code](https://code.visualstudio.com/)**
+- **[Google Chrome](https://www.google.com/chrome/)**
+
+<br>
+
+## :package: Installation
+
+### :heavy_check_mark: **Prerequisites**
+
+The following software must be installed:
+  
+  - **[Node.js](https://nodejs.org/en/)**
+  - **[Git](https://git-scm.com/)**
+  - **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**
+
+<br>
+  
+### :arrow_down: **Cloning the repository**
+
+```sh
+  $ git clone https://github.com/gabrielsouzacampos/AluraQuiz.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<br>
 
-### Try it on CodeSandbox
+### :arrow_forward:	**Running the applications**
 
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
+- :computer: Web app
 
-### Notes
-
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
-
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
-
-**components/StyledLink.js**
-
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
-
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
-
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    color: #40a9ff;
-  }
-
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
+```sh
+  # Dependencies install.
+  $ yarn # or npm install
+  # Running web app
+  $ yarn dev # or npm start
 ```
 
-**pages/index.js**
+<br>
 
-```javascript
-import StyledLink from '../components/StyledLink'
+## :memo: License
 
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
-```
+This project is under the **MIT** license.
 
-</details>
+
